@@ -87,6 +87,7 @@ public class Fraction {
 		System.out.println(f7);
 		Fraction f8 = new Fraction(9,7);
 		System.out.println(f8);
+		System.out.println(f7.add(f8));
 
 	}
 
