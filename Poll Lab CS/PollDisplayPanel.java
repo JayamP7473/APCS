@@ -30,14 +30,12 @@ public class PollDisplayPanel extends JPanel
   public void vote1()
   {
     count1 = count1 + 1;
-    //______________________________________
   }
 
   // Increments count2
   public void vote2()
   {
     count2 = count2 + 1;
-    //______________________________________
   }
 
   // Increments count3
@@ -122,8 +120,7 @@ public class PollDisplayPanel extends JPanel
     g.fillRect(x + r, y, 10, 10);
   }
 
-  // Returns the number of degrees in a pie slice that
-  // corresponds to count / total, rounded to the nearest integer.
+
   private int countToDegrees(double count, double total)
   {
     double  degrees = 360 * (count/total); 
