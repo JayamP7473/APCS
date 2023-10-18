@@ -1,6 +1,5 @@
 public class CylinderTest {
     public static void main(String[] args) {
-
         Cylinder cyl = new Cylinder(5,2);
         double vol = cyl.vol();
         System.out.println("radius = 5 height = 2 volume = " + vol);

@@ -33,7 +33,7 @@ public class Line {
 	
 	public boolean sameLength(Line otherLine)
 	{
-		double s1 = Math.abs(this.distance() - otherLine.distance()) 
+		double s1 = Math.abs(this.distance() - otherLine.distance()); 
 		return 		s1 <= .001;
 	}
 	
