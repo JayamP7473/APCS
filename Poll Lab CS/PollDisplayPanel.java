@@ -121,9 +121,10 @@ public class PollDisplayPanel extends JPanel
   }
 
 
-  private int countToDegrees(double count, double total)
+  private int countToDegrees(int count, int total)
   {
-    double  degrees = 360 * (count/total); 
+  
+    int  degrees = (360 *count/total); 
   //____________________________________________________
     return (int)degrees;
   }
