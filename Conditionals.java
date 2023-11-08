@@ -65,7 +65,7 @@ public class Conditionals {
         }
         return 0;
     }
-    public 
+     
     public static void main(String [] args){
         Conditionals ab = new Conditionals();
         // testing method 1
@@ -116,7 +116,7 @@ public class Conditionals {
         System.out.println(ab.blackjack(19, 21));
         System.out.println(ab.blackjack(21, 19));
         System.out.println(ab.blackjack(19, 22));
-        System.out.println(ab.blackjack(8, 21));
+        System.out.println(ab.blackjack(8, 8));
         System.out.println(ab.blackjack(25, 24));
         System.out.println(ab.blackjack(17, 9));
         System.out.println(ab.blackjack(12, 18));
