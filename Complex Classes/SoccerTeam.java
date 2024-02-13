@@ -30,10 +30,10 @@ public class SoccerTeam {
     }
 
     public int getTeamPoints() {
-        int fin = 0;
-        fin += this.ties;
-        fin += 3*(this.wins);
-        return fin;
+        int f = 0;
+        f += this.ties;
+        f += 3*(this.wins);
+        return f;
     }
 
     public void resetPoints() {
